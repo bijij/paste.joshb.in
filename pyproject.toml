@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "paste.joshb.in"
+version = "0.1.0"
+description = ""
+authors = ["Josh B <josh.ja.butt@gmail.com>"]
+license = "Apache-2.0"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+aiohttp = "^3.6.2"
+asyncpg = "^0.20.1"
+aiohttp-jinja2 = "^1.2.0"
+aiohttp-session = "^2.9.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.7.9"
+autopep8 = "^1.5.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
